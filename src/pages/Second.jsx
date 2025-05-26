@@ -3,7 +3,7 @@ import image from "../assets/l1.png"
 
 const Second = () => {
   return (
-    <div className='w-[100%] py-10 bg-gray px-2'>
+    <div className='w-[100%] py-10 px-2'>
        <div>
          <div>
             <h1 className='font-bold text-4xl mb-4 text-center text-redish'>Modern at</h1>
