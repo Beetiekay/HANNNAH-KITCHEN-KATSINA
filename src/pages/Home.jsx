@@ -1,12 +1,10 @@
 import React from 'react'
 import bg from "../assets/image1.jpg"
 import {FaGooglePlay} from "react-icons/fa"
-import Nav from '../components/nav'
 
 const Home = () => {
   return (
     <div className='overflow-hidden'>
-      <div><Nav/></div>
       <img src={bg} className='object-cover w-full h-full absolute'/>
       <div className='relative flex justify-center bg-black bg-opacity-35 items-center w-[100%] h-[100vh] '>
           <div className='flex items-center gap-3'>
