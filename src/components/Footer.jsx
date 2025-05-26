@@ -13,10 +13,10 @@ const Footer = () => {
        <p className='text-white text-sm mb-2'>Enter your email to get our weekly newsletter</p>
 
        <div>
-        <div className='border w-[54%] flex border-gray rounded-2xl  py-1'>
+        <form className='border w-[56%] flex border-gray rounded-2xl  py-1'>
         <input type='email' name='email' placeholder=' Inter Your Email' required className='bg-black outline-none text-white p-1'/>
-        <button className='p-1 px-6 rounded-2xl bg-redish text-white outline-none'>Join Now</button>
-        </div>
+        <button  className='p-1 px-6 rounded-2xl bg-redish text-white outline-none'>Join Now</button>
+        </form>
        </div>
       </div>
 
