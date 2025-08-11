@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='lg:mb-0 md:mb-2 mb-2'>
        <div className='flex items-center gap-2 mb-2'>
            <img src={logo} className=' w-10 bg-gray rounded-full'/>
-           <p className='font-semibold text-lg text-gray'>HUKS</p> 
+           <p className='font-semibold text-lg text-gray'>Hannah</p> 
        </div>
        <p className='text-gray italic text-sm mb-1 '>All credit own by respective owner</p>
        <p className='text-white text-sm mb-2'>Enter your email to get our weekly newsletter</p>

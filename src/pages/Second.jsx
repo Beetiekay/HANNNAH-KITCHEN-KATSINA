@@ -1,5 +1,5 @@
 import React from 'react'
-import image from "../assets/l1.png"
+import image from "../assets/f2.png"
 
 const Second = () => {
   return (

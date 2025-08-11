@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from "../assets/image1.jpg"
+import bg from "../assets/stick6.png"
 import {FaGooglePlay} from "react-icons/fa"
 import { IoMdMenu } from 'react-icons/io'
 import logo from "../assets/logo.png"
@@ -12,8 +12,8 @@ const Home = () => {
               <div className='fixed lg:hidden md:flex flex top-5 right-4'><IoMdMenu size={25} className='text-redish'/></div>
               <ul className='lg:flex block justify-around items-center'>
                   <div className='flex items-center gap-2 lg:mb-0 md:mb-0 mb-4'>
-                      <img src={logo} className='lg:w-14 md:w-14 w-10'/>
-                      <p className='font-semibold text-lg'>HUKS</p> 
+                      <img src={logo} className='lg:w-14 md:w-14 w-10 animate-spin'/>
+                      <p className='font-semibold text-lg'>Hannah kitchen katsina</p> 
                   </div>
       
                   <ul className='lg:flex block items-center gap-10 lg:mb-0 md:mb-0 mb-4'>
@@ -35,8 +35,8 @@ const Home = () => {
           <div className='flex items-center gap-3'>
             <button className='p-4 rounded-full outline-none border-2 border-black text-redish'><FaGooglePlay size={30}/></button>
             <div>
-              <h1 className='text-8xl font-bold'>HUK<span>s</span></h1>
-              <p className='text-xl font-bold text-redish translate-x-14 animate-spin scale-150'>DESIGN</p>
+              <h1 className='text-4xl text-white font-bold'>HANNAH KITCHEN <span>KATSINA</span></h1>
+              <p className='text-xl font-bold  text-center animate-pulse scale-150'>kitchen utilities</p>
             </div>
             
           </div>

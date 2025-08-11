@@ -1,5 +1,5 @@
 import React from 'react'
-import image from "../assets/l2.png"
+import image from "../assets/stick5.png"
 
 const Thurd = () => {
   return (
